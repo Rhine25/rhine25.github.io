@@ -71,11 +71,11 @@
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#overview" class="mdl-layout__tab is-active">Bienvenue</a>
-          <a href="#features" class="mdl-layout__tab">Qui suis-je ?</a>
-          <a href="#features" class="mdl-layout__tab">Mon parcours</a>
-          <a href="#features" class="mdl-layout__tab">Mes réalisations</a>
-          <a href="#features" class="mdl-layout__tab">Contact</a>
+          <a href="#welcome" class="mdl-layout__tab is-active">Bienvenue</a>
+          <a href="#whoami" class="mdl-layout__tab">Qui suis-je ?</a>
+          <a href="#career" class="mdl-layout__tab">Mon parcours</a>
+          <a href="#realizations" class="mdl-layout__tab">Mes réalisations</a>
+          <a href="#contact" class="mdl-layout__tab">Contact</a>
           <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
             <i class="material-icons" role="presentation">add</i>
             <span class="visuallyhidden">Add</span>
@@ -83,7 +83,7 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="overview">
+        <div class="mdl-layout__tab-panel is-active" id="welcome">
           <!--<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
               <i class="material-icons">play_circle_filled</i>
@@ -181,7 +181,109 @@
             </div>
           </section>-->
         </div>
-        <div class="mdl-layout__tab-panel" id="features">
+        <div class="mdl-layout__tab-panel" id="whoami">
+        <div class="mdl-layout__tab-panel" id="career">
+          <h2>Mon parcours</h2>
+                <div class="content">
+                  <div class="table-wrapper">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td><em>2016 - 2018</em></td>
+                          <td><em>Master Informatique</em></td>
+                        </tr>
+                        <tr>
+                          <td>2014 - Aujourd'hui</td>
+                          <td>Licence Informatique</td>
+                        </tr>
+                        <tr>
+                          <td>2012 - 2014</td>
+                          <td>BTS Services Informatiques aux Organisations</td>
+                        </tr>
+                        <tr>
+                          <td>2009 - 2012</td>
+                          <td>Baccalauréat Scientifique</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+        <div class="mdl-layout__tab-panel" id="realizations">
+          <h2>Mes réalisations</h2>
+                <div class="features">
+                  <section>
+                    <h3>Dans le cadre de ma formation</h3>
+                    <div class="features">
+                      <section>
+                        <h4><a href="https://github.com/Rhine25/Continuous-Integration">Projet L3 : Création d'un serveur d'intégration continue</a></h4>
+                      </section>
+                      <section>
+                        <h4>Jeu des Pétrifieurs en Java</h4>
+                      </section>
+                      <section> 
+                        <h4>Jeu stratego en C</h4>
+                      </section>
+                    </div>
+                  </section>
+                  <section>
+                    <h3>Professionnelles</h3>
+                    <div class="features">
+                      <section>
+                        <h4>Application de gestion des adresses IPs et base de données avec ruby</h4>
+                      </section>
+                    </div>
+                  </section>
+                  <section>
+                    <h3>Personnelles</h3>
+                    <div class="features">
+                      <section>
+                        <h4><a href="https://github.com/DeadPixelsSociety/Lux">Lux, jeu shoot'em up pour l'Année de la Lumière</a></h4>
+                      </section>
+                      <section>
+                        <h4><a href="https://github.com/DeadPixelsSociety/SonOfMars">Son of Mars, jeu hack'n'slash</a></h4>
+                      </section>
+                    </div>
+                  </section>
+                </div>
+        <div class="mdl-layout__tab-panel" id="contact">
+          <h2>Contactez-moi !</h2>
+              <div class="split style1">
+                <section>
+                  <form method="post" action="#">
+                    <div class="field half first">
+                      <label for="name">Nom</label>
+                      <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field half">
+                      <label for="email">Email</label>
+                      <input type="text" name="email" id="email" />
+                    </div>
+                    <div class="field">
+                      <label for="message">Message</label>
+                      <textarea name="message" id="message" rows="5"></textarea>
+                    </div>
+                    <ul class="actions">
+                      <li><a href="" class="button submit">Envoyer</a></li>
+                    </ul>
+                  </form>
+                </section>
+                <section>
+                  <ul class="contact">
+                    <li>
+                      <h3>Email</h3>
+                      <a href="#">celia.dehors@gmail.com</a>
+                    </li>
+                    <li>
+                      <h3>Social</h3>
+                      <ul class="icons">
+                        <li><a href="https://github.com/Rhine25" class="fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/celiadehors" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="http://www.viadeo.com/fr/profile/celia.dehors" class="fa-viadeo"><span class="label">Viadeo</span></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </section>
+              </div>
           <!--<section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Features</h4>
